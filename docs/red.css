@@ -28,6 +28,25 @@ header img {
     background-color: #ddd;
 }
 
+.controls {
+    margin-top: 16px;
+}
+
+button {
+    background-color: #c62828;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    margin: 6px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #a61c1c;
+}
+
 section {
     background-color: #ffffff;
     margin-bottom: 18px;

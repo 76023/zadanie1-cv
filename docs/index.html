@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ibrahim Sait Akarcesme – CV</title>
-    <link rel="stylesheet" href="red.css">
+    <link id="theme-link" rel="stylesheet" href="red.css">
 </head>
 <body>
     <header>
         <img src="profilepic.jpeg" alt="Zdjęcie profilowe Ibrahim Sait Akarcesme">
         <h1>Ibrahim Sait Akarcesme – CV</h1>
         <p>Student Computer Engineering na Vistula University</p>
+
+        <div class="controls">
+            <button id="theme-toggle-btn">Zmień motyw (red / green)</button>
+            <button id="projects-toggle-btn">Ukryj / pokaż sekcję Projekty</button>
+        </div>
     </header>
 
     <main>
@@ -61,7 +66,7 @@
             <p>Vistula University, Computer Engineering, 2 semestr.</p>
         </section>
 
-        <section>
+        <section id="projects-section">
             <h2>Projekty</h2>
             <ul>
                 <li>ibrahimsait.blog – własny blog z lokalnym panelem administracyjnym, notatkami i nagraniami podcastów</li>
@@ -73,5 +78,7 @@
     <footer>
         <p>Ibrahim Sait Akarcesme</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
